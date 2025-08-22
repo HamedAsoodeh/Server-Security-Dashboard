@@ -1,0 +1,36 @@
+# Sensitive files
+*.key
+*.pem
+*.crt
+*.env
+.env.local
+.env.production
+secrets.*
+config/credentials.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Executables
+*.exe
+*.bin
+
+# Backup files
+*.bak
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
