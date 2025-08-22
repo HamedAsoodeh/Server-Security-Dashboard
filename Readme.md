@@ -1,7 +1,6 @@
-# 🛡️ Server Security Dashboard / داشبورد امنیت سرور
+# 🛡️ Server Security Dashboard
 
-A comprehensive and beautiful Bash script for monitoring Linux server security with visual color-coded output.  
-یک اسکریپت کامل و زیبا برای مانیتورینگ امنیت سرور لینوکس با خروجی رنگی و بصری.
+A comprehensive and beautiful Bash script for monitoring Linux server security with visual color-coded output.
 
 ---
 
@@ -12,28 +11,21 @@ A comprehensive and beautiful Bash script for monitoring Linux server security w
 
 ---
 
-## ✨ Features / ویژگی‌ها
+## ✨ Features
 
-- 📊 **System Status Monitoring** (CPU, Memory, Disk)  
-  مانیتورینگ وضعیت سیستم (CPU، رم، دیسک)
-- 🔐 **Security Checks** (Failed logins, Open ports, Sensitive files)  
-  بررسی‌های امنیتی (لاگین ناموفق، پورت‌های باز، فایل‌های حساس)
-- 🚀 **Service Status** (SSH, Nginx, MySQL, Docker, etc.)  
-  وضعیت سرویس‌ها (SSH، Nginx، MySQL، Docker و ...)
-- 🔔 **Color-coded Alerts** (Based on severity levels)  
-  هشدارهای رنگی بر اساس سطح شدت
-- 📝 **Real Security Event Reporting**  
-  گزارش رویدادهای امنیتی واقعی
-- 💡 **Actionable Security Recommendations**  
-  پیشنهادهای امنیتی کاربردی
-- 🎨 **Beautiful Visual Interface**  
-  رابط کاربری زیبا و رنگی
+- 📊 **System Status Monitoring** (CPU, Memory, Disk)
+- 🔐 **Security Checks** (Failed logins, Open ports, Sensitive files)
+- 🚀 **Service Status** (SSH, Nginx, MySQL, Docker, etc.)
+- 🔔 **Color-coded Alerts** (Based on severity levels)
+- 📝 **Real Security Event Reporting**
+- 💡 **Actionable Security Recommendations**
+- 🎨 **Beautiful Visual Interface**
 
 ---
 
-## 🚀 Installation / نصب
+## 🚀 Installation
 
-### Prerequisites / پیش‌نیازها
+### Prerequisites
 
 ```bash
 # For Debian/Ubuntu systems:
@@ -46,7 +38,7 @@ sudo yum install sysstat
 sudo pacman -S sysstat
 ```
 
-### Quick Setup / راه‌اندازی سریع
+### Quick Setup
 
 ```bash
 # Download the script
@@ -61,21 +53,21 @@ chmod +x security_dashboard.sh
 
 ---
 
-## 🎯 Usage / استفاده
+## 🎯 Usage
 
-### Basic Usage / استفاده پایه
+### Basic Usage
 
 ```bash
 ./security_dashboard.sh
 ```
 
-### Real-time Monitoring (every 5 minutes) / مانیتورینگ زنده (هر ۵ دقیقه)
+### Real-time Monitoring (every 5 minutes)
 
 ```bash
 watch -n 300 ./security_dashboard.sh
 ```
 
-### Automated Daily Checks with Cron / بررسی روزانه خودکار با Cron
+### Automated Daily Checks with Cron
 
 ```bash
 crontab -e
@@ -85,7 +77,7 @@ crontab -e
 
 ---
 
-## 📊 Sample Output / نمونه خروجی
+## 📊 Sample Output
 
 ```text
 ╔══════════════════════════════════════════════════════════╗
@@ -111,44 +103,42 @@ Disk Usage: [██████████░░░░░░░░░░] 42% �
 ✅ mysql: RUNNING
 ⚠️ docker: NOT INSTALLED
 ```
----
-
-
-## 🤝 Contributing / مشارکت
-
-- Fork the project / پروژه را Fork کنید
-- Create your feature branch / شاخه جدید ایجاد کنید
-- Commit your changes / تغییرات را ثبت کنید
-- Push to the branch / به شاخه ارسال کنید
-- Open a Pull Request / Pull Request باز کنید
 
 ---
 
-## 📜 License / مجوز
+## 🤝 Contributing
 
-This project is licensed under the MIT License - see the LICENSE file for details.  
-این پروژه تحت مجوز MIT منتشر شده است - فایل LICENSE را ببینید.
-
----
-
-## ⚠️ Security Notes / نکات امنیتی
-
-- Always review code before execution / همیشه قبل از اجرا کد را بررسی کنید
-- The script contains no sensitive information / اسکریپت حاوی اطلاعات حساس نیست
-- Run with appropriate permissions / با سطح دسترسی مناسب اجرا کنید
-- Regular monitoring enhances server security / مانیتورینگ منظم امنیت سرور را افزایش می‌دهد
+- Fork the project
+- Create your feature branch
+- Commit your changes
+- Push to the branch
+- Open a Pull Request
 
 ---
 
-## 📞 Support / پشتیبانی
+## 📜 License
 
-- Open a GitHub Issue / باز کردن Issue در گیت‌هاب
-- Check the Discussions / بررسی Discussions
-- Email: your-email@example.com / ایمیل: your-email@example.com
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## 🌟 Star History / تاریخچه ستاره‌ها
+## ⚠️ Security Notes
 
-If you find this project useful, please give it a ⭐ on GitHub!  
-اگر این پروژه برایتان مفید بود، لطفاً در گیت‌هاب به آن ⭐ بدهید!
+- Always review code before execution
+- The script contains no sensitive information
+- Run with appropriate permissions
+- Regular monitoring enhances server security
+
+---
+
+## 📞 Support
+
+- Open a GitHub Issue
+- Check the Discussions
+- Email: hamedasoodeh@gmail.com
+
+---
+
+## 🌟 Star History
+
+If you find this project useful, please give it a ⭐ on GitHub!
